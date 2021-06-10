@@ -1,0 +1,27 @@
+.ContainerCuerpo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7DB0B5;
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+}
+
+
+#image2{ 
+    width: 180px;
+    box-shadow: 3px 3px 5px 3px #000;
+}
+
+.ContainerText{
+    margin: 10px;
+    font-family:sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+.ContainerImagen{
+    width: 50%;
+    margin: 10px;
+    height: 100%;
+    justify-content: center;
+}
