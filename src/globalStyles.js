@@ -16,11 +16,11 @@ const GlobalStyles=createGlobalStyle`
     text-align: justify;
 
 }
-.
+
 
 #principalTitle{
     font-size: 50px;
-    color:rgb(226,70,43);
+    color: blue;
 }
 
 
