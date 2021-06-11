@@ -20,7 +20,8 @@ const GlobalStyles=createGlobalStyle`
 
 #principalTitle{
     font-size: 50px;
-    color: blue;
+    color: #608C97;
+    font-family:'Hind';
 }
 
 
@@ -31,6 +32,24 @@ const GlobalStyles=createGlobalStyle`
     margin-left: 2%;
     height: 100%;
     justify-content: center;
+}
+
+button{
+    padding: 15px;
+    margin:0 10px 25px 0;
+    font-size: 15px;
+    font-family: 'Hind';
+    border-radius:10px;
+    border: none;
+    background: rgb(250,144,56);
+    background: linear-gradient(0deg, rgba(250,144,56,1) 0%, rgba(96,140,151,0.9747235387045814) 57%);
+    color: black;
+}
+
+button:hover{
+    background: rgb(96,140,151);
+    background: linear-gradient(0deg, rgba(96,140,151,0.9747235387045814) 1%, rgba(250,144,56,1) 100%);
+    color:  #002933;
 }
 
 /*Fuentes*/
